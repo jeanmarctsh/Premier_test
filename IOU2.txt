@@ -1,0 +1,245 @@
+UNIX ERR:tcgetattr:Inappropriate ioctl for device
+
+              Restricted Rights Legend
+
+Use, duplication, or disclosure by the Government is
+subject to restrictions as set forth in subparagraph
+(c) of the Commercial Computer Software - Restricted
+Rights clause at FAR sec. 52.227-19 and subparagraph
+(c) (1) (ii) of the Rights in Technical Data and Computer
+Software clause at DFARS sec. 252.227-7013.
+
+           cisco Systems, Inc.
+           170 West Tasman Drive
+           San Jose, California 95134-1706
+
+
+
+Cisco IOS Software, Solaris Software (I86BI_LINUXL2-ADVENTERPRISEK9-M), Experime                                                                           ntal Version 15.1(20130726:213425) [dstivers-july26-2013-team_track 104]
+Copyright (c) 1986-2013 by Cisco Systems, Inc.
+Compiled Fri 26-Jul-13 15:56 by dstivers
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+Linux Unix (Intel-x86) processor with 189092K bytes of memory.
+Processor board ID 2048002
+16 Ethernet interfaces
+16K bytes of NVRAM.
+
+
+
+Press RETURN to get started!
+
+
+*Jan 11 10:55:38.676: %SPANTREE-5-EXTENDED_SYSID: Extended SysId enabled for typ                                                                           e vlan
+*Jan 11 10:55:39.352: %SYS-5-CONFIG_I: Configured from memory by console
+*Jan 11 10:55:39.543: %SYS-5-RESTART: System restarted --
+Cisco IOS Software, Solaris Software (I86BI_LINUXL2-ADVENTERPRISEK9-M), Experime                                                                           ntal Version 15.1(20130726:213425) [dstivers-july26-2013-team_track 104]
+Copyright (c) 1986-2013 by Cisco Systems, Inc.
+Compiled Fri 26-Jul-13 15:56 by dstivers
+*Jan 11 10:55:39.740: %LINK-3-UPDOWN: Interface Ethernet0/0, changed state to up
+*Jan 11 10:55:39.749: %LINK-3-UPDOWN: Interface Ethernet0/1, changed state to up
+*Jan 11 10:55:39.761: %LINK-3-UPDOWN: Interface Ethernet0/2, changed state to up
+*Jan 11 10:55:39.772: %LINK-3-UPDOWN: Interface Ethernet0/3, changed state to up
+*Jan 11 10:55:39.777: %LINK-3-UPDOWN: Interface Ethernet1/0, changed state to up
+*Jan 11 10:55:39.789: %LINK-3-UPDOWN: Interface Ethernet1/1, changed state to up
+*Jan 11 10:55:39.799: %LINK-3-UPDOWN: Interface Ethernet1/2, changed state to up
+*Jan 11 10:55:39.812: %LINK-3-UPDOWN: Interface Ethernet1/3, changed state to up
+*Jan 11 10:55:39.824: %LINK-3-UPDOWN: Interface Ethernet2/0, changed state to up
+*Jan 11 10:55:39.829: %LINK-3-UPDOWN: Interface Ethernet2/1, changed state to up
+*Jan 11 10:55:39.842: %LINK-3-UPDOWN: Interface Ethernet2/2, changed state to up
+*Jan 11 10:55:39.855: %LINK-3-UPDOWN: Interface Ethernet2/3, changed state to up
+*Jan 11 10:55:39.859: %LINK-3-UPDOWN: Interface Ethernet3/0, changed state to up
+*Jan 11 10:55:39.868: %LINK-3-UPDOWN: Interface Ethernet3/1, changed state to up
+*Jan 11 10:55:39.877: %LINK-3-UPDOWN: Interface Ethernet3/2, changed state to up
+*Jan 11 10:55:39.889: %LINK-3-UPDOWN: Interface Ethernet3/3, changed state to up
+*Jan 11 10:55:40.332: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, cha                                                                           nged state to down
+*Jan 11 10:55:40.743: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet0/                                                                           0, changed state to up
+*Jan 11 10:55:40.752: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet0/                                                                           1, changed state to up
+*Jan 11 10:55:40.761: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet0/                                                                           2, changed state to up
+*Jan 11 10:55:40.772: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet0/                                                                           3, changed state to up
+*Jan 11 10:55:40.782: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/                                                                           0, changed state to up
+*Jan 11 10:55:40.791: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/                                                                           1, changed state to up
+*Jan 11 10:55:40.800: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/                                                                           2, changed state to up
+*Jan 11 10:55:40.816: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/                                                                           3, changed state to up
+*Jan 11 10:55:40.825: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet2/                                                                           0, changed state to up
+*Jan 11 10:55:40.833: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet2/                                                                           1, changed state to up
+*Jan 11 10:55:40.846: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet2/                                                                           2, changed state to up
+*Jan 11 10:55:40.863: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet2/                                                                           3, changed state to up
+*Jan 11 10:55:40.863: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet3/                                                                           0, changed state to up
+*Jan 11 10:55:40.872: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet3/                                                                           1, changed state to up
+*Jan 11 10:55:40.880: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet3/                                                                           2, changed state to up
+*Jan 11 10:55:40.889: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet3/                                                                           3, changed state to up
+*Jan 11 10:55:41.333: %LINK-5-CHANGED: Interface Vlan1, changed state to adminis                                                                           tratively down
+IOU2#
+IOU2#
+IOU2#conf t
+IOU2#conf terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+IOU2(config)#no ip domai
+IOU2(config)#no ip domain-lo
+IOU2(config)#no ip domain-lookup
+IOU2(config)#serv
+IOU2(config)#service pas
+IOU2(config)#service password-encryption
+IOU2(config)#line console 0
+IOU2(config-line)#pass
+IOU2(config-line)#password 123a
+IOU2(config-line)#login
+IOU2(config-line)#exit
+IOU2(config)#login
+% Incomplete command.
+
+IOU2(config)#login
+IOU2(config)#login ?
+  block-for   Set quiet-mode active time period
+  delay       Set delay between successive fail login
+  on-failure  Set options for failed login attempt
+  on-success  Set options for successful login attempt
+  quiet-mode  Set quiet-mode options
+
+IOU2(config)#sh
+IOU2(config)#do sh
+IOU2(config)#do show in
+IOU2(config)#do show int status
+
+Port      Name               Status       Vlan       Duplex  Speed Type
+Et0/0                        connected    trunk        auto   auto unknown
+Et0/1                        connected    1            auto   auto unknown
+Et0/2                        connected    1            auto   auto unknown
+Et0/3                        connected    1            auto   auto unknown
+Et1/0                        connected    1            auto   auto unknown
+Et1/1                        connected    1            auto   auto unknown
+Et1/2                        connected    1            auto   auto unknown
+Et1/3                        connected    1            auto   auto unknown
+Et2/0                        connected    1            auto   auto unknown
+Et2/1                        connected    1            auto   auto unknown
+Et2/2                        connected    1            auto   auto unknown
+Et2/3                        connected    1            auto   auto unknown
+Et3/0                        connected    1            auto   auto unknown
+Et3/1                        connected    1            auto   auto unknown
+Et3/2                        connected    1            auto   auto unknown
+Et3/3                        connected    1            auto   auto unknown
+IOU2(config)#interf
+IOU2(config)#interface rzn
+IOU2(config)#interface rang
+IOU2(config)#interface range eth
+IOU2(config)#interface range ethernet 1/0-3
+IOU2(config-if-range)#sh
+IOU2(config-if-range)#shutdown
+IOU2(config-if-range)#shutdown
+*Jan 11 11:46:19.200: %LINK-5-CHANGED: Interface Ethernet1/0, changed state to administratively down
+*Jan 11 11:46:19.209: %LINK-5-CHANGED: Interface Ethernet1/1, changed state to administratively down
+*Jan 11 11:46:19.209: %LINK-5-CHANGED: Interface Ethernet1/2, changed state to administratively down
+*Jan 11 11:46:19.209: %LINK-5-CHANGED: Interface Ethernet1/3, changed state to administratively down
+IOU2(config-if-range)#interface range ethernet 1/0-3
+*Jan 11 11:46:20.204: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/0, changed state to down
+*Jan 11 11:46:20.213: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/1, changed state to down
+*Jan 11 11:46:20.213: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/2, changed state to down
+*Jan 11 11:46:20.213: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/3, changed state to down
+IOU2(config-if-range)#interface range ethernet 2/0-3
+IOU2(config-if-range)#sh
+IOU2(config-if-range)#shutdown
+IOU2(config-if-range)#shutdown
+*Jan 11 11:46:31.791: %LINK-5-CHANGED: Interface Ethernet2/0, changed state to administratively down
+*Jan 11 11:46:31.801: %LINK-5-CHANGED: Interface Ethernet2/1, changed state to administratively down
+*Jan 11 11:46:31.801: %LINK-5-CHANGED: Interface Ethernet2/2, changed state to administratively down
+*Jan 11 11:46:31.801: %LINK-5-CHANGED: Interface Ethernet2/3, changed state to administratively down
+*Jan 11 11:46:32.794: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet2/0, changed state to down
+IOU2(config-if-range)#interface range ethernet 2/0-3
+*Jan 11 11:46:32.805: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet2/1, changed state to down
+*Jan 11 11:46:32.805: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet2/2, changed state to down
+*Jan 11 11:46:32.805: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet2/3, changed state to down
+IOU2(config-if-range)#interface range ethernet 3/0-3
+IOU2(config-if-range)#sh
+IOU2(config-if-range)#shutdown
+IOU2(config-if-range)#do
+*Jan 11 11:46:41.600: %LINK-5-CHANGED: Interface Ethernet3/0, changed state to administratively down
+*Jan 11 11:46:41.600: %LINK-5-CHANGED: Interface Ethernet3/1, changed state to administratively down
+*Jan 11 11:46:41.604: %LINK-5-CHANGED: Interface Ethernet3/2, changed state to administratively down
+*Jan 11 11:46:41.604: %LINK-5-CHANGED: Interface Ethernet3/3, changed state to administratively down
+*Jan 11 11:46:42.606: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet3/0, changed state to down
+*Jan 11 11:46:42.606: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet3/1, changed state to down
+*Jan 11 11:46:42.606: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet3/2, changed state to down
+*Jan 11 11:46:42.606: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet3/3, changed state to down
+IOU2(config-if-range)#do wr
+Warning: Attempting to overwrite an NVRAM configuration previously written
+by a different version of the system image.
+Overwrite the previous NVRAM configuration?[confirm]
+Building configuration...
+Compressed configuration from 1622 bytes to 899 bytes[OK]
+IOU2(config-if-range)#
+IOU2(config-if-range)#
+IOU2(config-if-range)#exit
+IOU2(config)#int
+IOU2(config)#interface eh
+IOU2(config)#interface eth
+IOU2(config)#interface ethernet 0/3
+IOU2(config-if)#sh
+IOU2(config-if)#shutdown
+IOU2(config-if)#i
+*Jan 11 11:47:08.803: %LINK-5-CHANGED: Interface Ethernet0/3, changed state to administratively down
+*Jan 11 11:47:09.808: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet0/3, changed state to down
+IOU2(config-if)#int
+IOU2(config-if)#inter
+IOU2(config-if)#exit
+IOU2(config)#int
+IOU2(config)#interface eth
+IOU2(config)#interface ethernet 0/0
+IOU2(config-if)#swi
+IOU2(config-if)#switchport po
+IOU2(config-if)#switchport port-security mac
+IOU2(config-if)#switchport port-security mac-address st
+IOU2(config-if)#switchport port-security mac-address sticky
+IOU2(config-if)#swi
+IOU2(config-if)#switchport po
+IOU2(config-if)#switchport port-security v
+IOU2(config-if)#switchport port-security violation s
+IOU2(config-if)#switchport port-security violation shutdown
+IOU2(config-if)#
+IOU2(config-if)#do wr
+Building configuration...
+Compressed configuration from 1677 bytes to 931 bytes[OK]
+IOU2(config-if)#
+IOU2(config-if)#
+IOU2(config-if)#interface ethernet 0/1
+IOU2(config-if)#switchport port-security mac-address sticky
+IOU2(config-if)#switchport port-security violation shutdown
+IOU2(config-if)#interface ethernet 0/2
+IOU2(config-if)#switchport port-security violation shutdown
+IOU2(config-if)#switchport port-security mac-address sticky
+IOU2(config-if)#do wr
+Building configuration...
+Compressed configuration from 1767 bytes to 984 bytes[OK]
+IOU2(config-if)#do sh int status
+
+Port      Name               Status       Vlan       Duplex  Speed Type
+Et0/0                        connected    trunk        auto   auto unknown
+Et0/1                        connected    1            auto   auto unknown
+Et0/2                        connected    1            auto   auto unknown
+Et0/3                        disabled     1            auto   auto unknown
+Et1/0                        disabled     1            auto   auto unknown
+Et1/1                        disabled     1            auto   auto unknown
+Et1/2                        disabled     1            auto   auto unknown
+Et1/3                        disabled     1            auto   auto unknown
+Et2/0                        disabled     1            auto   auto unknown
+Et2/1                        disabled     1            auto   auto unknown
+Et2/2                        disabled     1            auto   auto unknown
+Et2/3                        disabled     1            auto   auto unknown
+Et3/0                        disabled     1            auto   auto unknown
+Et3/1                        disabled     1            auto   auto unknown
+Et3/2                        disabled     1            auto   auto unknown
+Et3/3                        disabled     1            auto   auto unknown
+IOU2(config-if)#
