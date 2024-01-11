@@ -1,0 +1,458 @@
+UNIX ERR:tcgetattr:Inappropriate ioctl for device
+
+              Restricted Rights Legend
+
+Use, duplication, or disclosure by the Government is
+subject to restrictions as set forth in subparagraph
+(c) of the Commercial Computer Software - Restricted
+Rights clause at FAR sec. 52.227-19 and subparagraph
+(c) (1) (ii) of the Rights in Technical Data and Computer
+Software clause at DFARS sec. 252.227-7013.
+
+           cisco Systems, Inc.
+           170 West Tasman Drive
+           San Jose, California 95134-1706
+
+
+
+Cisco IOS Software, Solaris Software (I86BI_LINUXL2-ADVENTERPRISEK9-M), Experime                                                                           ntal Version 15.1(20130726:213425) [dstivers-july26-2013-team_track 104]
+Copyright (c) 1986-2013 by Cisco Systems, Inc.
+Compiled Fri 26-Jul-13 15:56 by dstivers
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+Linux Unix (Intel-x86) processor with 189092K bytes of memory.
+Processor board ID 2048005
+16 Ethernet interfaces
+16K bytes of NVRAM.
+
+
+
+Press RETURN to get started!
+
+
+*Jan 11 10:55:39.388: %SPANTREE-5-EXTENDED_SYSID: Extended SysId enabled for typ                                                                           e vlan
+*Jan 11 10:55:39.879: %SYS-5-CONFIG_I: Configured from memory by console
+*Jan 11 10:55:39.946: %SYS-5-RESTART: System restarted --
+Cisco IOS Software, Solaris Software (I86BI_LINUXL2-ADVENTERPRISEK9-M), Experime                                                                           ntal Version 15.1(20130726:213425) [dstivers-july26-2013-team_track 104]
+Copyright (c) 1986-2013 by Cisco Systems, Inc.
+Compiled Fri 26-Jul-13 15:56 by dstivers
+*Jan 11 10:55:40.317: %LINK-3-UPDOWN: Interface Ethernet0/0, changed state to up
+*Jan 11 10:55:40.322: %LINK-3-UPDOWN: Interface Ethernet0/1, changed state to up
+*Jan 11 10:55:40.335: %LINK-3-UPDOWN: Interface Ethernet0/2, changed state to up
+*Jan 11 10:55:40.349: %LINK-3-UPDOWN: Interface Ethernet0/3, changed state to up
+*Jan 11 10:55:40.354: %LINK-3-UPDOWN: Interface Ethernet1/0, changed state to up
+*Jan 11 10:55:40.366: %LINK-3-UPDOWN: Interface Ethernet1/1, changed state to up
+*Jan 11 10:55:40.371: %LINK-3-UPDOWN: Interface Ethernet1/2, changed state to up
+*Jan 11 10:55:40.384: %LINK-3-UPDOWN: Interface Ethernet1/3, changed state to up
+*Jan 11 10:55:40.389: %LINK-3-UPDOWN: Interface Ethernet2/0, changed state to up
+*Jan 11 10:55:40.401: %LINK-3-UPDOWN: Interface Ethernet2/1, changed state to up
+*Jan 11 10:55:40.414: %LINK-3-UPDOWN: Interface Ethernet2/2, changed state to up
+*Jan 11 10:55:40.419: %LINK-3-UPDOWN: Interface Ethernet2/3, changed state to up
+*Jan 11 10:55:40.432: %LINK-3-UPDOWN: Interface Ethernet3/0, changed state to up
+*Jan 11 10:55:40.444: %LINK-3-UPDOWN: Interface Ethernet3/1, changed state to up
+*Jan 11 10:55:40.449: %LINK-3-UPDOWN: Interface Ethernet3/2, changed state to up
+*Jan 11 10:55:40.462: %LINK-3-UPDOWN: Interface Ethernet3/3, changed state to up
+*Jan 11 10:55:40.879: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, cha                                                                           nged state to down
+*Jan 11 10:55:41.321: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet0/                                                                           0, changed state to up
+*Jan 11 10:55:41.322: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet0/                                                                           1, changed state to up
+*Jan 11 10:55:41.335: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet0/                                                                           2, changed state to up
+*Jan 11 10:55:41.352: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet0/                                                                           3, changed state to up
+*Jan 11 10:55:41.360: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/                                                                           0, changed state to up
+*Jan 11 10:55:41.373: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/                                                                           1, changed state to up
+*Jan 11 10:55:41.373: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/                                                                           2, changed state to up
+*Jan 11 10:55:41.386: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/                                                                           3, changed state to up
+*Jan 11 10:55:41.391: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet2/                                                                           0, changed state to up
+*Jan 11 10:55:41.409: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet2/                                                                           1, changed state to up
+*Jan 11 10:55:41.417: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet2/                                                                           2, changed state to up
+*Jan 11 10:55:41.426: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet2/                                                                           3, changed state to up
+*Jan 11 10:55:41.438: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet3/                                                                           0, changed state to up
+*Jan 11 10:55:41.447: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet3/                                                                           1, changed state to up
+*Jan 11 10:55:41.455: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet3/                                                                           2, changed state to up
+*Jan 11 10:55:41.463: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet3/                                                                           3, changed state to up
+*Jan 11 10:55:41.879: %LINK-5-CHANGED: Interface Vlan1, changed state to adminis                                                                           tratively down
+IOU5#
+IOU5#
+IOU5#
+IOU5#
+IOU5#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+IOU5(config)#ser
+IOU5(config)#service pas
+IOU5(config)#service password-encryption
+IOU5(config)#no ip dom
+IOU5(config)#no ip domain-lo
+IOU5(config)#no ip domain-lookup
+IOU5(config)#pas
+IOU5(config)#password m
+IOU5(config)#password min
+IOU5(config)#password min l
+IOU5(config)#password min len
+IOU5(config)#secu
+IOU5(config)#securi
+IOU5(config)#secu
+IOU5(config)#secu
+IOU5(config)#security pas
+IOU5(config)#?
+Configure commands:
+  aaa                         Authentication, Authorization and Accounting.
+  access-list                 Add an access list entry
+  access-session              Access Session Global Configuration Commands
+  alias                       Create command alias
+  alps                        Configure Airline Protocol Support
+  ancp                        Configure ANCP
+  apollo                      Apollo global configuration commands
+  appletalk                   Appletalk global configuration commands
+  arap                        Appletalk Remote Access Protocol
+  archive                     Archive the configuration
+  arp                         Set a static ARP entry
+  async-bootp                 Modify system bootp parameters
+  authentication              Auth Manager Global Configuration Commands
+  auto                        Configure Automation
+  banner                      Define a login banner
+  beep                        Configure BEEP (Blocks Extensible Exchange
+                              Protocol)
+  bfd                         BFD configuration commands
+  bfd-template                BFD template configuration
+  boot                        Modify system boot parameters
+  bridge                      Bridge Group.
+  bridge-domain               Bridge-domain global configuration commands
+  bstun                       BSTUN global configuration commands
+  buffers                     Adjust system buffer pool parameters
+  busy-message                Display message when connection to host fails
+  cdp                         Global CDP configuration subcommands
+  cef                         Cisco Express Forwarding
+  chat-script                 Define a modem chat script
+  class-map                   Configure CPL Class Map
+  clns                        Global CLNS configuration subcommands
+  clock                       Configure time-of-day clock
+  cns                         CNS agents
+  config-register             Define the configuration register
+  configuration               Configuration access
+  connect                     cross-connect two interfaces
+  control-plane               Configure control plane services
+  crypto                      Encryption module
+  decnet                      Global DECnet configuration subcommands
+  default                     Set a command to its defaults
+  default-value               Default character-bits values
+  define                      interface range macro definition
+  dialer                      Dialer commands
+  dialer-list                 Create a dialer list entry
+  dlsw                        Data Link Switching global configuration commands
+  dnsix-dmdp                  Provide DMDP service for DNSIX
+  dnsix-nat                   Provide DNSIX service for audit trails
+  do-exec                     To run exec commands in config mode
+  dot1x                       IEEE 802.1X Global Configuration Commands
+  downward-compatible-config  Generate a configuration compatible with older
+                              software
+  dspu                        DownStream Physical Unit Command
+  eap                         EAP Global Configuration Commands
+  enable                      Modify enable password parameters
+  end                         Exit from configure mode
+  endnode                     SNA APPN endnode command
+  errdisable                  Error disable
+  ethernet                    Ethernet configuration
+  exit                        Exit from configure mode
+  file                        Adjust file system parameters
+  flow                        Global Flow configuration subcommands
+  flow-sampler-map            Flow sampler configuration
+  format                      Format the output
+  frame-relay                 global frame relay configuration commands
+  global-address-family       Enter address-family base routing topology mode
+  help                        Description of the interactive help system
+  hostname                    Set system's network name
+  hw-module                   Control of individual components in the system
+  interface                   Select an interface to configure
+  ip                          Global IP configuration subcommands
+  ipc                         Configure IPC system
+  ipv6                        Global IPv6 configuration commands
+  ipx                         Novell/IPX global configuration commands
+  isis                        Global ISIS configuration subcommands
+  kerberos                    Configure Kerberos
+  key                         Key management
+  keymap                      Define a new keymap
+  kron                        Kron interval Facility
+  l2                          Layer 2 configuration
+  l2tp                        Layer 2 Tunneling Protocol (L2TP) parameters
+  l2tp-class                  l2tp-class configuration
+  lacp                        LACP configuration
+  lat                         DEC Local Area Transport (LAT) transmission
+                              protocol
+  li-view                     LI View
+  line                        Configure a terminal line
+  lldp                        Global LLDP configuration subcommands
+  lnm                         IBM Lan Manager
+  locaddr-priority-list       Establish queueing priorities based on LU address
+  location                    Global location configuration commands
+  location                    Network Management Router location Command
+  logging                     Modify message logging facilities
+  login                       Enable secure login checking
+  login-string                Define a host-specific login string
+  mab                         MAC Authentication Bypass Global Configuration
+                              Commands
+  mac                         Global MAC configuration subcommands
+  macro                       Macro configuration
+  map-class                   Configure static map class
+  map-list                    Configure static map list
+  mediatrace                  Mediatrace Application
+  memory                      Configure memory management
+  menu                        Define a user-interface menu
+  metadata                    Metadata Application
+  modemcap                    Modem Capabilities database
+  monitor                     Monitoring different system events
+  mop                         Configure the DEC MOP Server
+  mpls                        Configure MPLS parameters
+  multilink                   PPP multilink global configuration
+  ncia                        Native Client Interface Architecture
+  netbios                     NETBIOS access control filtering
+  netconf                     Configure NETCONF
+  nmsp                        NMSP configuration commands
+  no                          Negate a command or set its defaults
+  ntp                         Configure NTP
+  parser                      Configure parser
+  password                    Configure encryption password (key)
+  policy-manager              Policy Manager configuration commands
+  policy-map                  Configure CPL Policy Map
+  port-channel                EtherChannel configuration
+  priority-list               Build a priority list
+  privilege                   Command privilege parameters
+  process                     Configure process
+  process-max-time            Maximum time for process to run before
+                              voluntarily relinquishing processor
+  prompt                      Set system's prompt
+  pseudowire-class            Pseudowire-class configuration
+  qos                         Global QoS configuration subcommands
+  queue-list                  Build a custom queue list
+  regexp                      regexp commands
+  resource                    Configure Resource settings
+  resume-string               Define a host-specific resume string
+  rif                         Source-route RIF cache
+  rlogin                      Rlogin configuration commands
+  route-map                   Create route-map or enter route-map command mode
+  router                      Enable a routing process
+  rsrb                        RSRB LSAP/DSAP filtering
+  sampler                     Define a Sampler
+  sap-priority-list           Establish queueing priorities based on SAP and/or
+                              MAC address(es)
+  sasl                        Configure SASL
+  scheduler                   Scheduler parameters
+  scripting                   Configure options for scripting languages
+  service                     Modify use of network based services
+  service-family              Configure extenal service-family clients
+  shell                       Configure shell command
+  shutdown                    Shutdown system elements
+  smrp                        Simple Multicast Routing Protocol configuration
+                              commands
+  sna                         Network Management Physical Unit Command
+  snmp                        Modify non engine SNMP parameters
+  snmp-server                 Modify SNMP engine parameters
+  source-bridge               Source-route bridging ring groups
+  spanning-tree               Spanning Tree Subsystem
+  stacks                      Configure stacks
+  standby                     Global HSRP configuration commands
+  state-machine               Define a TCP dispatch state machine
+  stun                        STUN global configuration commands
+  subscriber-policy           Subscriber policy
+  table-map                   Configure Table Map
+  tacacs-server               Modify TACACS query parameters
+  tarp                        Global TARP configuration subcommands
+  template                    Select a template to configure
+  terminal-queue              Terminal queue commands
+  tftp-server                 Provide TFTP service for netload requests
+  time-range                  Define time range entries
+  tn3270                      tn3270 configuration command
+  track                       Object tracking configuration commands
+  translate                   Translate global configuration commands
+  ttycap                      Define a new termcap
+  username                    Establish User Name Authentication
+  vines                       VINES global configuration commands
+  virtual-profile             Virtual Profile configuration
+  virtual-template            Virtual Template configuration
+  vlan                        Vlan commands
+  vrf                         VRF commands
+  vtp                         Configure global VTP state
+  vty-async                   Enable virtual async line configuration
+  wsma                        Configure Web Services Management Agents
+  x25                         X.25 Level 3
+  x29                         X29 commands
+  xconnect                    Xconnect config commands
+  xns                         XNS global configuration commands
+  xremote                     Configure XRemote
+
+IOU5(config)#security pass
+IOU5(config)#security pass
+               ^
+% Invalid input detected at '^' marker.
+
+IOU5(config)#lin
+IOU5(config)#line co
+IOU5(config)#line console 0
+IOU5(config-line)#pas
+IOU5(config-line)#password abcd
+IOU5(config-line)#login
+IOU5(config-line)#exit
+IOU5(config)#pass
+IOU5(config)#password com
+IOU5(config)#password compl
+IOU5(config)#password complexity enable
+                      ^
+% Invalid input detected at '^' marker.
+
+IOU5(config)#
+IOU5(config)#do sh int status
+
+Port      Name               Status       Vlan       Duplex  Speed Type
+Et0/0                        connected    1            auto   auto unknown
+Et0/1                        connected    1            auto   auto unknown
+Et0/2                        connected    1            auto   auto unknown
+Et0/3                        connected    1            auto   auto unknown
+Et1/0                        connected    1            auto   auto unknown
+Et1/1                        connected    1            auto   auto unknown
+Et1/2                        connected    1            auto   auto unknown
+Et1/3                        connected    1            auto   auto unknown
+Et2/0                        connected    1            auto   auto unknown
+Et2/1                        connected    1            auto   auto unknown
+Et2/2                        connected    1            auto   auto unknown
+Et2/3                        connected    1            auto   auto unknown
+Et3/0                        connected    1            auto   auto unknown
+Et3/1                        connected    1            auto   auto unknown
+Et3/2                        connected    1            auto   auto unknown
+Et3/3                        connected    1            auto   auto unknown
+IOU5(config)#
+IOU5(config)#
+IOU5(config)#int
+IOU5(config)#interface et
+IOU5(config)#interface ethernet 0/3
+IOU5(config-if)#sh
+IOU5(config-if)#shutdown
+IOU5(config-if)#do sh
+*Jan 11 12:12:48.971: %LINK-5-CHANGED: Interface Ethernet0/3, changed state to administratively down
+*Jan 11 12:12:49.973: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet0/3, changed state to down
+IOU5(config-if)#do sh int status
+
+Port      Name               Status       Vlan       Duplex  Speed Type
+Et0/0                        connected    1            auto   auto unknown
+Et0/1                        connected    1            auto   auto unknown
+Et0/2                        connected    1            auto   auto unknown
+Et0/3                        disabled     1            auto   auto unknown
+Et1/0                        connected    1            auto   auto unknown
+Et1/1                        connected    1            auto   auto unknown
+Et1/2                        connected    1            auto   auto unknown
+Et1/3                        connected    1            auto   auto unknown
+Et2/0                        connected    1            auto   auto unknown
+Et2/1                        connected    1            auto   auto unknown
+Et2/2                        connected    1            auto   auto unknown
+Et2/3                        connected    1            auto   auto unknown
+Et3/0                        connected    1            auto   auto unknown
+Et3/1                        connected    1            auto   auto unknown
+Et3/2                        connected    1            auto   auto unknown
+Et3/3                        connected    1            auto   auto unknown
+IOU5(config-if)#exit
+IOU5(config)#int
+IOU5(config)#interface ra
+IOU5(config)#interface range et
+IOU5(config)#interface range ethernet 1/0-3
+IOU5(config-if-range)#sh
+IOU5(config-if-range)#interface range ethernet /0-3
+*Jan 11 12:13:16.328: %LINK-5-CHANGED: Interface Ethernet1/0, changed state to administratively down
+*Jan 11 12:13:16.328: %LINK-5-CHANGED: Interface Ethernet1/1, changed state to administratively down
+*Jan 11 12:13:16.328: %LINK-5-CHANGED: Interface Ethernet1/2, changed state to administratively down
+*Jan 11 12:13:16.337: %LINK-5-CHANGED: Interface Ethernet1/3, changed state to administratively down
+*Jan 11 12:13:17.337: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/0, changed state to down
+*Jan 11 12:13:17.337: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/1, changed state to down
+*Jan 11 12:13:17.337: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/2, changed state to down
+*Jan 11 12:13:17.337: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/3, changed state to down
+IOU5(config-if-range)#interface range ethernet 2/0-3
+IOU5(config-if-range)#sh
+IOU5(config-if-range)#interface range ethernet 2/0-3
+*Jan 11 12:13:22.276: %LINK-5-CHANGED: Interface Ethernet2/0, changed state to administratively down
+*Jan 11 12:13:22.276: %LINK-5-CHANGED: Interface Ethernet2/1, changed state to administratively down
+*Jan 11 12:13:22.285: %LINK-5-CHANGED: Interface Ethernet2/2, changed state to administratively down
+*Jan 11 12:13:22.285: %LINK-5-CHANGED: Interface Ethernet2/3, changed state to administratively down
+*Jan 11 12:13:23.276: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet2/0, changed state to down
+*Jan 11 12:13:23.276: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet2/1, changed state to down
+*Jan 11 12:13:23.291: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet2/2, changed state to down
+*Jan 11 12:13:23.291: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet2/3, changed state to down
+IOU5(config-if-range)#interface range ethernet 3/0-3
+IOU5(config-if-range)#sh
+IOU5(config-if-range)#do
+*Jan 11 12:13:31.032: %LINK-5-CHANGED: Interface Ethernet3/0, changed state to administratively down
+*Jan 11 12:13:31.041: %LINK-5-CHANGED: Interface Ethernet3/1, changed state to administratively down
+*Jan 11 12:13:31.041: %LINK-5-CHANGED: Interface Ethernet3/2, changed state to administratively down
+*Jan 11 12:13:31.041: %LINK-5-CHANGED: Interface Ethernet3/3, changed state to administratively down
+*Jan 11 12:13:32.032: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet3/0, changed state to down
+*Jan 11 12:13:32.041: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet3/1, changed state to down
+*Jan 11 12:13:32.041: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet3/2, changed state to down
+*Jan 11 12:13:32.041: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet3/3, changed state to down
+IOU5(config-if-range)#do wr
+Warning: Attempting to overwrite an NVRAM configuration previously written
+by a different version of the system image.
+Overwrite the previous NVRAM configuration?[confirm]
+Building configuration...
+Compressed configuration from 1632 bytes to 904 bytes[OK]
+IOU5(config-if-range)#exit
+IOU5(config)#int
+IOU5(config)#interface eth
+IOU5(config)#interface ethernet 0/0
+IOU5(config-if)#sw
+IOU5(config-if)#switchport po
+IOU5(config-if)#switchport port-security m
+IOU5(config-if)#switchport port-security mac
+IOU5(config-if)#switchport port-security mac-address st
+IOU5(config-if)#switchport port-security mac-address sticky
+IOU5(config-if)#sw
+IOU5(config-if)#switchport po
+IOU5(config-if)#switchport port-security v
+IOU5(config-if)#switchport port-security violation s
+IOU5(config-if)#switchport port-security violation shutdown
+IOU5(config-if)#
+IOU5(config-if)#interface ethernet 0/1
+IOU5(config-if)#swi
+IOU5(config-if)#switchport po
+IOU5(config-if)#switchport port-security ma
+IOU5(config-if)#switchport port-security mac
+IOU5(config-if)#switchport port-security mac-address s
+IOU5(config-if)#switchport port-security mac-address sticky
+IOU5(config-if)#sw
+IOU5(config-if)#switchport p
+IOU5(config-if)#switchport po
+IOU5(config-if)#switchport port-security v
+IOU5(config-if)#switchport port-security violation s
+IOU5(config-if)#switchport port-security violation shutdown
+IOU5(config-if)#
+IOU5(config-if)#
+IOU5(config-if)#do wr
+Building configuration...
+Compressed configuration from 1722 bytes to 960 bytes[OK]
+IOU5(config-if)#do sh int status
+
+Port      Name               Status       Vlan       Duplex  Speed Type
+Et0/0                        connected    1            auto   auto unknown
+Et0/1                        connected    1            auto   auto unknown
+Et0/2                        connected    1            auto   auto unknown
+Et0/3                        disabled     1            auto   auto unknown
+Et1/0                        disabled     1            auto   auto unknown
+Et1/1                        disabled     1            auto   auto unknown
+Et1/2                        disabled     1            auto   auto unknown
+Et1/3                        disabled     1            auto   auto unknown
+Et2/0                        disabled     1            auto   auto unknown
+Et2/1                        disabled     1            auto   auto unknown
+Et2/2                        disabled     1            auto   auto unknown
+Et2/3                        disabled     1            auto   auto unknown
+Et3/0                        disabled     1            auto   auto unknown
+Et3/1                        disabled     1            auto   auto unknown
+Et3/2                        disabled     1            auto   auto unknown
+Et3/3                        disabled     1            auto   auto unknown
+IOU5(config-if)#
