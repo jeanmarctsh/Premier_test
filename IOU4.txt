@@ -1,0 +1,392 @@
+UNIX ERR:tcgetattr:Inappropriate ioctl for device
+
+              Restricted Rights Legend
+
+Use, duplication, or disclosure by the Government is
+subject to restrictions as set forth in subparagraph
+(c) of the Commercial Computer Software - Restricted
+Rights clause at FAR sec. 52.227-19 and subparagraph
+(c) (1) (ii) of the Rights in Technical Data and Computer
+Software clause at DFARS sec. 252.227-7013.
+
+           cisco Systems, Inc.
+           170 West Tasman Drive
+           San Jose, California 95134-1706
+
+
+
+Cisco IOS Software, Solaris Software (I86BI_LINUXL2-ADVENTERPRISEK9-M), Experime                                                                           ntal Version 15.1(20130726:213425) [dstivers-july26-2013-team_track 104]
+Copyright (c) 1986-2013 by Cisco Systems, Inc.
+Compiled Fri 26-Jul-13 15:56 by dstivers
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+Linux Unix (Intel-x86) processor with 189092K bytes of memory.
+Processor board ID 2048004
+16 Ethernet interfaces
+16K bytes of NVRAM.
+
+
+
+Press RETURN to get started!
+
+
+*Jan 11 10:55:39.045: %SPANTREE-5-EXTENDED_SYSID: Extended SysId enabled for typ                                                                           e vlan
+*Jan 11 10:55:39.666: %SYS-5-CONFIG_I: Configured from memory by console
+*Jan 11 10:55:39.779: %SYS-5-RESTART: System restarted --
+Cisco IOS Software, Solaris Software (I86BI_LINUXL2-ADVENTERPRISEK9-M), Experime                                                                           ntal Version 15.1(20130726:213425) [dstivers-july26-2013-team_track 104]
+Copyright (c) 1986-2013 by Cisco Systems, Inc.
+Compiled Fri 26-Jul-13 15:56 by dstivers
+*Jan 11 10:55:39.937: %LINK-3-UPDOWN: Interface Ethernet0/0, changed state to up
+*Jan 11 10:55:39.950: %LINK-3-UPDOWN: Interface Ethernet0/1, changed state to up
+*Jan 11 10:55:39.954: %LINK-3-UPDOWN: Interface Ethernet0/2, changed state to up
+*Jan 11 10:55:39.965: %LINK-3-UPDOWN: Interface Ethernet0/3, changed state to up
+*Jan 11 10:55:39.978: %LINK-3-UPDOWN: Interface Ethernet1/0, changed state to up
+*Jan 11 10:55:39.982: %LINK-3-UPDOWN: Interface Ethernet1/1, changed state to up
+*Jan 11 10:55:39.995: %LINK-3-UPDOWN: Interface Ethernet1/2, changed state to up
+*Jan 11 10:55:40.007: %LINK-3-UPDOWN: Interface Ethernet1/3, changed state to up
+*Jan 11 10:55:40.012: %LINK-3-UPDOWN: Interface Ethernet2/0, changed state to up
+*Jan 11 10:55:40.024: %LINK-3-UPDOWN: Interface Ethernet2/1, changed state to up
+*Jan 11 10:55:40.029: %LINK-3-UPDOWN: Interface Ethernet2/2, changed state to up
+*Jan 11 10:55:40.041: %LINK-3-UPDOWN: Interface Ethernet2/3, changed state to up
+*Jan 11 10:55:40.054: %LINK-3-UPDOWN: Interface Ethernet3/0, changed state to up
+*Jan 11 10:55:40.059: %LINK-3-UPDOWN: Interface Ethernet3/1, changed state to up
+*Jan 11 10:55:40.069: %LINK-3-UPDOWN: Interface Ethernet3/2, changed state to up
+*Jan 11 10:55:40.082: %LINK-3-UPDOWN: Interface Ethernet3/3, changed state to up
+*Jan 11 10:55:40.664: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, cha                                                                           nged state to down
+*Jan 11 10:55:40.937: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet0/                                                                           0, changed state to up
+*Jan 11 10:55:40.958: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet0/                                                                           1, changed state to up
+*Jan 11 10:55:40.958: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet0/                                                                           2, changed state to up
+*Jan 11 10:55:40.970: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet0/                                                                           3, changed state to up
+*Jan 11 10:55:40.979: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/                                                                           0, changed state to up
+*Jan 11 10:55:40.987: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/                                                                           1, changed state to up
+*Jan 11 10:55:40.995: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/                                                                           2, changed state to up
+*Jan 11 10:55:41.008: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/                                                                           3, changed state to up
+*Jan 11 10:55:41.017: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet2/                                                                           0, changed state to up
+*Jan 11 10:55:41.026: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet2/                                                                           1, changed state to up
+*Jan 11 10:55:41.035: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet2/                                                                           2, changed state to up
+*Jan 11 10:55:41.043: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet2/                                                                           3, changed state to up
+*Jan 11 10:55:41.061: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet3/                                                                           0, changed state to up
+*Jan 11 10:55:41.061: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet3/                                                                           1, changed state to up
+*Jan 11 10:55:41.074: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet3/                                                                           2, changed state to up
+*Jan 11 10:55:41.082: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet3/                                                                           3, changed state to up
+*Jan 11 10:55:41.662: %LINK-5-CHANGED: Interface Vlan1, changed state to adminis                                                                           tratively down
+IOU4#
+IOU4#
+IOU4#
+IOU4#
+IOU4#
+IOU4#
+IOU4#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+IOU4(config)#no ip coma
+IOU4(config)#no ip dom
+IOU4(config)#no ip domain-l
+IOU4(config)#no ip domain-lo
+IOU4(config)#no ip domain-lookup
+IOU4(config)#ser
+IOU4(config)#service pas
+IOU4(config)#service password-encryption
+IOU4(config)#in
+IOU4(config)#interface r
+IOU4(config)#interface range eth
+IOU4(config)#interface range ethernet 1/0-3
+IOU4(config-if-range)#sh
+IOU4(config-if-range)#shutdown
+IOU4(config-if-range)#interface range ethernet 1/0-3
+*Jan 11 12:28:39.784: %LINK-5-CHANGED: Interface Ethernet1/0, changed state to administratively down
+*Jan 11 12:28:39.784: %LINK-5-CHANGED: Interface Ethernet1/1, changed state to administratively down
+*Jan 11 12:28:39.784: %LINK-5-CHANGED: Interface Ethernet1/2, changed state to administratively down
+*Jan 11 12:28:39.793: %LINK-5-CHANGED: Interface Ethernet1/3, changed state to administratively down
+*Jan 11 12:28:40.788: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/0, changed state to down
+*Jan 11 12:28:40.788: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/1, changed state to down
+*Jan 11 12:28:40.788: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/2, changed state to down
+*Jan 11 12:28:40.797: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/3, changed state to down
+IOU4(config-if-range)#interface range ethernet 2/0-3
+IOU4(config-if-range)#sh
+IOU4(config-if-range)#interface range ethernet 2/0-3
+*Jan 11 12:28:51.683: %LINK-5-CHANGED: Interface Ethernet2/0, changed state to administratively down
+*Jan 11 12:28:51.683: %LINK-5-CHANGED: Interface Ethernet2/1, changed state to administratively down
+*Jan 11 12:28:51.683: %LINK-5-CHANGED: Interface Ethernet2/2, changed state to administratively down
+*Jan 11 12:28:51.692: %LINK-5-CHANGED: Interface Ethernet2/3, changed state to administratively down
+*Jan 11 12:28:52.683: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet2/0, changed state to down
+*Jan 11 12:28:52.683: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet2/1, changed state to down
+*Jan 11 12:28:52.683: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet2/2, changed state to down
+*Jan 11 12:28:52.692: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet2/3, changed state to down
+IOU4(config-if-range)#interface range ethernet 3/0-3
+IOU4(config-if-range)#sh
+IOU4(config-if-range)#
+*Jan 11 12:28:58.362: %LINK-5-CHANGED: Interface Ethernet3/0, changed state to administratively down
+*Jan 11 12:28:58.362: %LINK-5-CHANGED: Interface Ethernet3/1, changed state to administratively down
+*Jan 11 12:28:58.370: %LINK-5-CHANGED: Interface Ethernet3/2, changed state to administratively down
+*Jan 11 12:28:58.370: %LINK-5-CHANGED: Interface Ethernet3/3, changed state to administratively down
+*Jan 11 12:28:59.364: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet3/0, changed state to down
+*Jan 11 12:28:59.364: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet3/1, changed state to down
+IOU4(config-if-range)#
+IOU4(config-if-range)#
+*Jan 11 12:28:59.374: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet3/2, changed state to down
+*Jan 11 12:28:59.375: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet3/3, changed state to down
+IOU4(config-if-range)#
+IOU4(config-if-range)#do wr
+Warning: Attempting to overwrite an NVRAM configuration previously written
+by a different version of the system image.
+Overwrite the previous NVRAM configuration?[confirm]
+Building configuration...
+Compressed configuration from 1592 bytes to 880 bytes[OK]
+IOU4(config-if-range)#
+IOU4(config-if-range)#exit
+IOU4(config)#in
+IOU4(config)#interface eth
+IOU4(config)#interface ethernet 0/0
+IOU4(config-if)#sw
+IOU4(config-if)#switchport po
+IOU4(config-if)#switchport port-security m
+IOU4(config-if)#switchport port-security mac
+IOU4(config-if)#switchport port-security mac-address s
+IOU4(config-if)#switchport port-security mac-address sticky
+IOU4(config-if)#sw
+IOU4(config-if)#switchport po
+IOU4(config-if)#switchport port-security v
+IOU4(config-if)#switchport port-security violation s
+IOU4(config-if)#switchport port-security violation shutdown
+IOU4(config-if)#do wr
+Building configuration...
+Compressed configuration from 1637 bytes to 908 bytes[OK]
+IOU4(config-if)#exit
+IOU4(config)#int
+IOU4(config)#interface eth
+IOU4(config)#interface ethernet 0/1
+IOU4(config-if)#sw
+IOU4(config-if)#switchport po
+IOU4(config-if)#switchport port-security mac
+IOU4(config-if)#switchport port-security mac-address s
+IOU4(config-if)#switchport port-security mac-address sticky
+IOU4(config-if)#sw
+IOU4(config-if)#switchport p
+IOU4(config-if)#switchport po
+IOU4(config-if)#switchport port-security v
+IOU4(config-if)#switchport port-security violation sh
+IOU4(config-if)#switchport port-security violation shutdown
+IOU4(config-if)#swi
+IOU4(config-if)#switchport po
+IOU4(config-if)#switchport port-security ?
+  aging        Port-security aging commands
+  mac-address  Secure mac address
+  maximum      Max secure addresses
+  violation    Security violation mode
+  <cr>
+
+IOU4(config-if)#switchport port-security ag
+IOU4(config-if)#switchport port-security aging ?
+  static  Enable aging for configured secure addresses
+  time    Port-security aging time
+  type    Port-security aging type
+
+IOU4(config-if)#switchport port-security aging t
+IOU4(config-if)#switchport port-security aging tim
+IOU4(config-if)#switchport port-security aging time ?
+  <1-1440>  Aging time in minutes. Enter a value between 1 and 1440
+
+IOU4(config-if)#switchport port-security aging time 120
+IOU4(config-if)#sw
+IOU4(config-if)#switchport po
+IOU4(config-if)#switchport port-security ?
+  aging        Port-security aging commands
+  mac-address  Secure mac address
+  maximum      Max secure addresses
+  violation    Security violation mode
+  <cr>
+
+IOU4(config-if)#switchport port-security ag
+IOU4(config-if)#switchport port-security aging ?
+  static  Enable aging for configured secure addresses
+  time    Port-security aging time
+  type    Port-security aging type
+
+IOU4(config-if)#switchport port-security aging ty
+IOU4(config-if)#switchport port-security aging type ?
+  absolute    Absolute aging (default)
+  inactivity  Aging based on inactivity time period
+
+IOU4(config-if)#do wr
+Building configuration...
+Compressed configuration from 1723 bytes to 953 bytes[OK]
+IOU4(config-if)#
+IOU4(config-if)#
+IOU4(config-if)#
+IOU4(config-if)#
+IOU4(config-if)#exit
+IOU4(config)#int
+IOU4(config)#interface eth
+IOU4(config)#interface ethernet 0/2
+IOU4(config-if)#sw
+IOU4(config-if)#switchport po
+IOU4(config-if)#switchport port-security ma
+IOU4(config-if)#switchport port-security mac
+IOU4(config-if)#switchport port-security mac-address st
+IOU4(config-if)#switchport port-security mac-address sticky
+IOU4(config-if)#sw
+IOU4(config-if)#switchport po
+IOU4(config-if)#switchport port-security v
+IOU4(config-if)#switchport port-security violation s
+IOU4(config-if)#switchport port-security violation shutdown
+IOU4(config-if)#do wr
+Building configuration...
+Compressed configuration from 1768 bytes to 975 bytes[OK]
+IOU4(config-if)#
+IOU4(config-if)#
+IOU4(config-if)#do wr
+Building configuration...
+Compressed configuration from 1768 bytes to 975 bytes[OK]
+IOU4(config-if)#interface ethernet 0/3
+IOU4(config-if)#sw
+IOU4(config-if)#switchport po
+IOU4(config-if)#switchport port-security ma
+IOU4(config-if)#switchport port-security mac
+IOU4(config-if)#switchport port-security mac-address st
+IOU4(config-if)#switchport port-security mac-address sticky
+IOU4(config-if)#sw
+IOU4(config-if)#switchport po
+IOU4(config-if)#switchport port-security v
+IOU4(config-if)#switchport port-security violation sh
+IOU4(config-if)#switchport port-security violation shutdown
+IOU4(config-if)#do wr
+Building configuration...
+Compressed configuration from 1813 bytes to 996 bytes[OK]
+IOU4(config-if)#exit
+IOU4(config)#in
+IOU4(config)#interface v
+IOU4(config)#interface vl
+IOU4(config)#interface vlan 1
+IOU4(config-if)#ip ad
+IOU4(config-if)#ip address 192.100.9.10 255.255.255.0
+IOU4(config-if)#no sh
+IOU4(config-if)#do wr
+Building configuration...
+Compressed configuration from 1827 bytes to 1015 bytes[OK]
+IOU4(config-if)#ex
+*Jan 11 12:36:14.470: %LINK-3-UPDOWN: Interface Vlan1, changed state to up
+*Jan 11 12:36:15.474: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to up
+IOU4(config-if)#exit
+IOU4(config)#ip def
+IOU4(config)#ip default-g
+IOU4(config)#ip default-gateway 192.100.9.1
+IOU4(config)#do wr
+Building configuration...
+Compressed configuration from 1858 bytes to 1037 bytes[OK]
+IOU4(config)#
+IOU4(config)#
+IOU4(config)#vl
+IOU4(config)#vlan 10
+IOU4(config-vlan)#name IT
+IOU4(config-vlan)#vlan 20
+IOU4(config-vlan)#name MARKETING ET VENTE
+IOU4(config-vlan)#vla
+IOU4(config-vlan)#vla
+IOU4(config-vlan)#vlan 30
+IOU4(config-vlan)#name RH
+IOU4(config-vlan)#do wr
+Building configuration...
+Compressed configuration from 1858 bytes to 1037 bytes[OK]
+IOU4(config-vlan)#
+IOU4(config-vlan)#do wr
+Building configuration...
+Compressed configuration from 1858 bytes to 1037 bytes[OK]
+IOU4(config-vlan)#exit
+IOU4(config)#int
+IOU4(config)#interface eth
+IOU4(config)#interface ethernet 0/0
+IOU4(config-if)#sw
+IOU4(config-if)#switchport mo
+IOU4(config-if)#switchport mode ac
+IOU4(config-if)#switchport mode access
+IOU4(config-if)#sw
+IOU4(config-if)#switchport ac
+IOU4(config-if)#switchport access v
+IOU4(config-if)#switchport access vlan 10
+IOU4(config-if)#do
+*Jan 11 12:40:42.829: %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on Ethernet0/0 (10), with IOU1 Ethernet0/0 (1).
+*Jan 11 12:40:43.833: %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on Ethernet0/0 (10), with IOU1 Ethernet0/0 (1).
+IOU4(config-if)#do wr
+*Jan 11 12:40:44.834: %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on Ethernet0/0 (10), with IOU1 Ethernet0/0 (1).
+IOU4(config-if)#do wr
+Building configuration...
+Compressed configuration from 1909 bytes to 1061 bytes[OK]
+IOU4(config-if)#
+IOU4(config-if)#
+IOU4(config-if)#exit
+IOU4(config)#
+IOU4(config)#in
+IOU4(config)#interface eth
+IOU4(config)#interface ethernet 0/2
+IOU4(config-if)#swi
+IOU4(config-if)#switchport mo
+IOU4(config-if)#switchport mode ac
+IOU4(config-if)#switchport mode access
+IOU4(config-if)#sw
+IOU4(config-if)#switchport ac
+IOU4(config-if)#switchport access v
+IOU4(config-if)#switchport access vlan 20
+IOU4(config-if)#do wr
+Building configuration...
+Compressed configuration from 1960 bytes to 1081 bytes[OK]
+IOU4(config-if)#
+*Jan 11 12:41:28.023: %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on Ethernet0/2 (20), with IOU2 Ethernet0/0 (1).
+*Jan 11 12:41:29.027: %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on Ethernet0/2 (20), with IOU2 Ethernet0/0 (1).
+IOU4(config-if)#
+*Jan 11 12:41:30.035: %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on Ethernet0/2 (20), with IOU2 Ethernet0/0 (1).
+*Jan 11 12:41:31.039: %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on Ethernet0/2 (20), with IOU2 Ethernet0/0 (1).
+IOU4(config-if)#
+*Jan 11 12:41:32.045: %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on Ethernet0/2 (20), with IOU2 Ethernet0/0 (1).
+*Jan 11 12:41:33.045: %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on Ethernet0/2 (20), with IOU2 Ethernet0/0 (1).
+IOU4(config-if)#
+*Jan 11 12:41:34.045: %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on Ethernet0/2 (20), with IOU2 Ethernet0/0 (1).
+*Jan 11 12:41:35.047: %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on Ethernet0/2 (20), with IOU2 Ethernet0/0 (1).
+IOU4(config-if)#do wr
+*Jan 11 12:41:44.834: %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on Ethernet0/0 (10), with IOU1 Ethernet0/0 (1).
+IOU4(config-if)#do wr
+Building configuration...
+Compressed configuration from 1960 bytes to 1081 bytes[OK]
+IOU4(config-if)#exit
+IOU4(config)#int
+IOU4(config)#interface eth
+IOU4(config)#interface ethernet 0/3
+IOU4(config-if)#sw
+IOU4(config-if)#switchport mo
+IOU4(config-if)#switchport mode ac
+IOU4(config-if)#switchport mode access
+IOU4(config-if)#sw
+IOU4(config-if)#switchport ac
+IOU4(config-if)#switchport access v
+IOU4(config-if)#switchport access vlan 30
+IOU4(config-if)#do wr
+Building configuration...
+Compressed configuration from 2011 bytes to 1101 bytes[OK]
+IOU4(config-if)#
+*Jan 11 12:42:28.188: %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on Ethernet0/3 (30), with IOU3 Ethernet0/0 (1).
+*Jan 11 12:42:29.191: %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on Ethernet0/3 (30), with IOU3 Ethernet0/0 (1).
+IOU4(config-if)#
+*Jan 11 12:42:30.191: %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on Ethernet0/3 (30), with IOU3 Ethernet0/0 (1).
+*Jan 11 12:42:31.199: %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on Ethernet0/3 (30), with IOU3 Ethernet0/0 (1).
+IOU4(config-if)#
+*Jan 11 12:42:32.207: %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on Ethernet0/3 (30), with IOU3 Ethernet0/0 (1).
+*Jan 11 12:42:33.209: %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on Ethernet0/3 (30), with IOU3 Ethernet0/0 (1).
+IOU4(config-if)#
+*Jan 11 12:42:34.219: %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on Ethernet0/3 (30), with IOU3 Ethernet0/0 (1).
+*Jan 11 12:42:35.051: %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on Ethernet0/2 (20), with IOU2 Ethernet0/0 (1).
+*Jan 11 12:42:35.225: %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on Ethernet0/3 (30), with IOU3 Ethernet0/0 (1).
+IOU4(config-if)#
+*Jan 11 12:42:44.838: %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on Ethernet0/0 (10), with IOU1 Ethernet0/0 (1).
+IOU4(config-if)#
