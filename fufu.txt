@@ -1,0 +1,2 @@
+Automatisation avec Ansible
+monitoring avec zabbix / grafana / naggios
